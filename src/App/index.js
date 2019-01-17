@@ -5,7 +5,7 @@ import AppBar from './AppBar';
 import './App.css';
 import AppLayout from './AppLayout';
 import AppProvider from './AppProvider';
-import WelcomeMessage from './WelcomeMessage';
+import WelcomeMessage from '../Settings';
 
 
 
