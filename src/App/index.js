@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import styled from 'styled-components';
+import AppLayout from './AppLayout';
 import WelcomeMessage from './WelcomeMessage';
 
 
@@ -8,7 +8,9 @@ import WelcomeMessage from './WelcomeMessage';
 class App extends Component {
   render() {
     return (
-      <WelcomeMessage />
+      <AppLayout>
+        <WelcomeMessage />
+      </AppLayout>
     );
   }
 }
