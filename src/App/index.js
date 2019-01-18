@@ -5,8 +5,8 @@ import AppBar from './AppBar';
 import './App.css';
 import AppLayout from './AppLayout';
 import AppProvider from './AppProvider';
-import WelcomeMessage from '../Settings';
-
+import Settings from '../Settings';
+import Content from '../Shared/Content';
 
 
 class App extends Component {
@@ -15,7 +15,9 @@ class App extends Component {
       <AppLayout>
         <AppProvider>
           <AppBar />
-          <WelcomeMessage />
+          <Content>
+            <Settings />
+          </Content>
         </AppProvider>
       </AppLayout>
     );
